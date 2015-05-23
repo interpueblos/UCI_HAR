@@ -1,4 +1,4 @@
-## Firs of all set the dplyr library
+## First of all set the dplyr library
 library(dplyr)
 
 ## Read all the files required
@@ -95,4 +95,10 @@ tidyUCIData <- dataUCI %>% group_by(subject, activity) %>%
         summarise_each(funs(mean)
          )
 
+## Write the tidy data created to the tidyUCIData.txt file
 write.table(tidyUCIData,"./tidyUCIData.txt", row.name=FALSE)
+
+## Delete all the objects  (except the tidy data) to set the memory free
+rm(dataUCI)
+rm(features)
+rm(labels)
