@@ -287,5 +287,5 @@ These are the main tasks of the run_analysis.R scripts
 
 
 ### For more information about the script see the README.md
-* [./CodeBook.md](https://github.com/interpueblos/UCI_HAR/README.md)
+* [./CodeBook.md](https://github.com/interpueblos/UCI_HAR/blob/master/README.md)
  

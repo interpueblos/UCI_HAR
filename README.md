@@ -62,5 +62,5 @@ Execute the code
 After the execution of the run_analysis script a file named tidyUCIData.txt is written on the same directory (root) of the script. This is the tidy data expected.
 
 ### For more information about the script see the CodeBook
-* [./CodeBook.md](https://github.com/interpueblos/UCI_HAR/CodeBook.md)
+* [./CodeBook.md](https://github.com/interpueblos/UCI_HAR/blob/master/CodeBook.md)
  
